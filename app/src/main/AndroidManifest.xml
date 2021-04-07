@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PTSGENAP10RPL136">
-        <activity android:name=".halamanutama"></activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".menu" />
+        <activity android:name=".halamanutama" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

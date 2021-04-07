@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 if (email.equalsIgnoreCase("Zykha@gmail.com")
                         && password.equalsIgnoreCase("12345")){
                     Toast.makeText(MainActivity.this, "sukses Login", Toast.LENGTH_SHORT).show();
-                    Intent move = new Intent(MainActivity.this, halamanutama.class);
+                    Intent move = new Intent(MainActivity.this, MenuActivity.class);
                     move.putExtra("email", email);
                     startActivity(move);
                 }else {
